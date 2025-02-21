@@ -1,43 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
-    <style>
-        body {
-            background-color: #003d50;
-            color: white;
-            font-family: 'League Spartan', sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            text-align: center;
-        }
-        h1 {
-            font-size: 3em;
-            margin-bottom: 0.5em;
-        }
-        p {
-            font-size: 1.5em;
-            max-width: 600px;
-            margin: 0 20px;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            margin-top: 1em;
-        }
-    </style>
-    <!-- Link to Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
-</head>
+<style>
+    body {
+        background-color: #003d50;
+        color: white;
+        font-family: 'League Spartan', sans-serif;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        max-width: 900px;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    p {
+        font-size: 1.5em;
+        max-width: 400px;
+    }
+    img {
+        width: 300px; /* Resize the image width */
+        height: auto;
+    }
+</style>
 <body>
-    <h1>Welcome to Our Website</h1>
-    <p>This is a brief description of the website's purpose. Here, you can provide visitors with an overview of what to expect.</p>
-    <img src="/images/moreduplexes.png" alt="Description of image">
+    <div class="container">
+        <div>
+            <h1>Welcome to Our Website</h1>
+            <p>This is a brief description of the website's purpose. Here, you can provide visitors with an overview of what to expect.</p>
+        </div>
+        <img src="/images/moreduplexes.png" alt="More Duplexes, More Memphians, More Midtown">
+    </div>
 </body>
-</html>
