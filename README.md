@@ -1,3 +1,3 @@
 More Midtown.
 
-[link](/home.html)
+[link](https://morgansh9212.github.io/1moremidtown/)
