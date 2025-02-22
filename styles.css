@@ -1,0 +1,96 @@
+/* Import League Spartan Font */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;700&display=swap');
+
+/* Global Styles */
+body {
+    font-family: 'League Spartan', sans-serif;
+    background-color: #d7e8fe;
+    color: #133178;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #203f82;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-image.jpg'); /* Replace with actual image */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Content Sections */
+.content-section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Contact Section */
+.social-icons a {
+    color: #203f82;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #133178;
+}
+
+/* Footer */
+footer {
+    background-color: #203f82;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Image placeholders */
+.hero, .content-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#about {
+    background-image: url('about-image.jpg'); /* Replace with actual image */
+}
+
+#contact {
+    background-image: url('contact-image.jpg'); /* Replace with actual image */
+}
